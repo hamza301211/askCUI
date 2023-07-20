@@ -1,0 +1,65 @@
+.Filter-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Filter-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.Filter-link {
+  color: #61dafb;
+}
+
+.searchbar{
+   text-align: center;
+    margin-left: 770px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  
+}
+
+.write{
+  /* margin: 25px; */
+  background-color: #347c91;
+  color: white;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-left: 870px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.gridding{
+  margin-left: 185px;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 391px) {
+
+  .write{
+    /* margin: 25px; */
+    background-color: #347c91;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 130px;
+    text-align: center;
+  }
+  
+  .gridding{
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+}

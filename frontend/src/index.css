@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Inder');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inder;
+}
+body {
+  margin: 0;
+  /* font-family: Inder; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://img.freepik.com/free-vector/white-background-with-shiny-lines-design_1017-28446.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

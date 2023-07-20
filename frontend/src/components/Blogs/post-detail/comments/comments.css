@@ -1,0 +1,45 @@
+.box-container{
+    margin-top:100px;
+    width: 1200px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.avatar-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.text-area{
+    height: 100px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+
+@media only screen and (max-width: 391px) {
+    .box-container{
+        margin-top:100px;
+        width: 200px;
+        display: flex;
+        /* margin-left: 100px; */
+    }
+
+    .avatar-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transform: translate(-116px,10px);
+    }
+
+    .text-area{
+        height: 100px;
+        width: 100%;
+        margin: 0 20px;
+        margin-right: -120px;
+        transform: translate(-137px,0px);
+    }
+    
+  }
